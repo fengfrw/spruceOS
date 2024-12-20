@@ -106,6 +106,10 @@ $DELETE_MAC_FILES=/mnt/SDCARD/spruce/scripts/tasks/deleteMacFiles.sh$
 @"In systems using RetroArch"
 
 <Not_simple>
+"" "Check for BIOS before game launch" "|" "on|off" "$HELP$ check check_bios" "$HELP$ update check_bios _VALUE_" ""
+@"Enable to check for valid BIOS files before game launch"
+
+<Not_simple>
 "" "RetroArch: Use Rewind" "|" "on|off" "$RAREWIND$ check" "$RAREWIND$ assign _VALUE_" "$RAREWIND$ hint _VALUE_"
 @"Replaces Slow Mo mode with Rewind"
 
